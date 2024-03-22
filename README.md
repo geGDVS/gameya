@@ -1,9 +1,15 @@
-# awa_ya 阿瓦娅
+# AWABOT!
 ## Chinese ver.
 ### 介绍
-一个普通的机器人，不出意外的话现在在[https://hack.chat/?lounge](https://hack.chat/?lounge)中运行，有任何问题都可以来这找识别码是coBad2（或者9kQGU6）的笨蛋。  
-  
+一个普通的机器人，如今挂在[DPG](https://github.com/Doppelganger-phi)（\_）的服务器上，在[https://hack.chat/?lounge](https://hack.chat/?lounge)中运行，出现任何BUG了也都可以来这找我。  
+——关注[DPG](https://github.com/Doppelganger-phi)喵，关注[DPG](https://github.com/Doppelganger-phi)谢谢喵~  
+&emsp;  
 重编写自[HackChat库](https://github.com/gkbrk/hackchat)。  
+
+### 特色
+~~特别色！~~  
+咳咳，  
+特色：有很多实用的功能（也许），有一个[很抽象的API](https://api.qingyunke.com/)，可以让你在聊天室下象棋/打牌（这个是重点~~虽然一般没人有空用~~）。
 
 ### 用法
 1. 安装依赖库
@@ -11,29 +17,50 @@
 
 - 加速:```pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt ```
 
-2. 根据自己需求修改[info.json](files/info.json)。  
+2. 根据自己需求修改[info.json](https://github.com/Kroos372/awaBot/blob/main/info.json):  
+	文件从上到下值分别代表:  
+		1. 打招呼语  
+		2. Bot昵称  
+		3. Bot密码（可空）  
+		4. 加入的频道  
+		5. Bot颜色（可空）  
+		6. Bot主人名字  
+		7. Bot主人识别码  
+		8. 自称（中文名）  
+		9. 镑15便士  
 
-3. 运行[init.py](init.py)。  
+3. 运行[init.py](https://github.com/Kroos372/awaBot/blob/main/init.py)。
 
-4. 运行[main.py](main.py)。  
+4. 运行[mainBoter.py](https://github.com/Kroos372/awaBot/blob/main/mainBoter.py)。  
 
-### 别的
-特别感谢[DPG](https://github.com/Doppelganger-phi)与[Blaze](https://github.com/geGDVS)提供或提供过的服务器支持。
+6. 好好地对待她！  
+（偷偷加一句应该不会被主人发现吧@w@）
+
+### 其他
+WTFPL，  
+然后没了。  
+玩得愉快祝你ᕕ(&ensp;ᐛ&ensp;)ᕗ~
 
 ## English ver.
 ### Introduction
-A Normal BOT of hack.chat, runs in https://hack.chat/?lounge currently, chat with me there.  
-  
+A Normal BOT of hack.chat, runs in https://hack.chat/?lounge on [DPG](https://github.com/Doppelganger-phi)(\_)'s server currently,  
 Rewriten from [HackChat](https://github.com/gkbrk/hackchat)。
+
+### Featured
+Many functions, [funny chatting api](https://api.qingyunke.com/), can make you play Chinese chess or poker in the chat room.  
 
 ### Usage
 1. Install dependent libraries: ```pip install -r requirements.txt``` .   
 
-2. Customize [info.json](files/info.json).
+2. Customize [info.json](https://github.com/Kroos372/awaBot/blob/main/info.json).
 
-3. Run [init.py](init.py)。
+3. Run [init.py](https://github.com/Kroos372/awaBot/blob/main/init.py)。
 
-4. Run [main.py](main.py).  
+4. Run [mainBoter.py](https://github.com/Kroos372/awaBot/blob/main/mainBoter.py).  
 
+6. Treat her well!  
+(Sneak it in... Won't be noticed by my master, right? @w@)
 ### Others
-Special thanks to [DPG](https://github.com/Doppelganger-phi) and [Blaze](https://github.com/geGDVS) for providing or having provided server support.
+WTFPL,  
+and all.  
+Have a good time ᕕ(&ensp;ᐛ&ensp;)ᕗ  
